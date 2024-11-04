@@ -1,129 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
-    <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mi Página Personal</title>
+    <title>Galería de Lugares de Corea</title>
     <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
 </head>
 <body>
-    <!DOCTYPE html>
-    <html lang="es">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Mi Página Personal</title>
-        <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
-    </head>
+    <h1>Galería de Lugares de Corea</h1>
 
-    <body>
+    <!-- Contenedor de la galería -->
+    <div class="gallery">
+        <img src="imagen 1.webp" alt="Lugar en Corea 1" class="gallery-item">
+        <img src="imagen 2.jpg" alt="Lugar en Corea 2" class="gallery-item">
+        <img src="imagen 3.jpg" alt="Lugar en Corea 3" class="gallery-item">
+        <img src="imagen4.jpg" alt="Lugar en Corea 3" class="gallery-item">
+        <img src="imagen 5.jpg" alt="Lugar en Corea 3" class="gallery-item">
+        <!-- Agrega más imágenes según sea necesario -->
+    </div>
 
-        <!-- Encabezado -->
-        <header>
-            <h1>Bienvenido a Mi Página Personal</h1>
-        </header>
-        <!-- Navegación -->
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#bibliografia">Bibliografía</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-                <li><a href="#suenos">Sueños</a></li>
-                <li><a href="#viajes">Viajes</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-            <div style="position: relative; width: 100%; height: 0; padding-top: 56.2225%;
-            padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
-            border-radius: 8px; will-change: transform;">
-             <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-               src="https://www.canva.com/design/DAGVfbwKmAQ/Anfll7fJ_3yqD2ZbQRa1Lw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-             </iframe>
-           </div>
-           <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGVfbwKmAQ&#x2F;Anfll7fJ_3yqD2ZbQRa1Lw&#x2F;view?utm_content=DAGVfbwKmAQ&amp;
-           utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener" > </a>     
-        </nav>
-        <!-- Sección Inicio -->
-        <section id="inicio" class="container inicio">
-            <h2>Inicio</h2>
-            <p>¡Hola! Soy [Tu Nombre], un apasionado de [tu profesión o pasión]. En esta página podrás conocer más sobre
-                mí, mis habilidades, proyectos, sueños y los viajes que he realizado. ¡Gracias por visitar!</p>
-        </section>
+    <!-- Modal para mostrar la imagen ampliada -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="imgAmpliada">
+        <div id="caption"></div>
+    </div>
 
-        <!-- Sección Bibliografía -->
-        <section id="bibliografia" class="container bibliografia">
-            <h2>Bibliografía</h2>
-            <p>[Aquí puedes agregar un texto sobre tu vida, educación, experiencias profesionales, historia personal, y
-                más]</p>
-        </section>
-
-        <!-- Sección Habilidades -->
-        <section id="habilidades" class="container habilidades">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Desarrollo Web (HTML, CSS, JavaScript)</li>
-                <li>Diseño Gráfico</li>
-                <li>Marketing Digital</li>
-                <li>Gestión de Proyectos</li>
-            </ul>
-        </section>
-
-        <!-- Sección Proyectos -->
-        <section id="proyectos" class="container proyectos">
-            <h2>Proyectos</h2>
-            <p>A continuación, algunos de los proyectos en los que he trabajado:</p>
-            <ul>
-                <li>Proyecto 1: [Descripción breve]</li>
-                <li>Proyecto 2: [Descripción breve]</li>
-                <li>Proyecto 3: [Descripción breve]</li>
-            </ul>
-        </section>
-
-        <!-- Sección Sueños -->
-        <section id="suenos" class="container suenos">
-            <h2>Sueños</h2>
-            <p>Mis sueños siempre han sido [aquí puedes describir tus metas, aspiraciones o cosas que quieres lograr en
-                el futuro].</p>
-        </section>
-
-        <!-- Sección Viajes -->
-        <section id="viajes" class="container viajes">
-            <h2>Viajes</h2>
-            <p>Me encanta viajar, y he tenido la oportunidad de visitar lugares increíbles como:</p>
-            <ul>
-                <li>París, Francia</li>
-                <li>Tokio, Japón</li>
-                <li>Ciudad de México, México</li>
-                <li>Nueva York, Estados Unidos</li>
-            </ul>
-        </section>
-                <!-- Sección contacto -->
-                <section id="contacto" class="container viajes">
-                    <h2>Contacto</h2>
-                    <p>Contactame</p>
-                    </ul>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Página Principal</title>
-                <link rel="stylesheet" href="styles.css">
-            </head>
-            <body>
-                <header>
-                    <!-- Enlace a la página de contacto -->
-                </header>
-                <iframe width="853" height="480" src="https://www.youtube.com/embed/5hLPYkJ5YOU" title="Kid-Sized"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <head>
-        <!-- Pie de página -->
-        <footer>
-            <p>&copy; 2024 Meriza <div>Todos los derechos reservados.</div></p>
-        </footer>
-    </body>
-
-    </html>
+    <script src="script.js"></script> <!-- Enlace al archivo JavaScript -->
+</body>
+</html>
